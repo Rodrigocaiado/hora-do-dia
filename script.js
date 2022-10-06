@@ -2,7 +2,7 @@ function carregar(){
     var msg = document.getElementById('msg')
     var foto = document.getElementById('imagem')
     var data = new Date()
-    var hora = 5 //data.getHours()
+    var hora = data.getHours()
     msg.innerHTML = `Olá Mundo`
     if(hora >= 5 && hora < 12){
         // Manhã
